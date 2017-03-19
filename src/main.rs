@@ -15,7 +15,7 @@ fn index() -> io::Result<NamedFile> {
 
 #[get("/extras/<file..>")]
 fn static_file(file: PathBuf) -> Option<NamedFile> {
-    NamedFile::open(Path::new("assets/extras/").join(file)).ok()
+    NamedFile::open(Path::new("assets/").join(file)).ok()
 }
 
 fn main() {
