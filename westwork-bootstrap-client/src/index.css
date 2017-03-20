@@ -4,3 +4,10 @@ body {
   font-family: sans-serif;
   background-color: #CACDE5;
 }
+
+.Westwork-prompt {
+  color: #656672;
+  height: 150px;
+  padding: 20px;
+  vertical-align: middle;
+}
