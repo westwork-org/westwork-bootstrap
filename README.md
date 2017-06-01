@@ -1,6 +1,5 @@
 Westwork Client
 ====
-This repository is the React client side code that will form the frontend for the Westwork system.
+This repository contains the front end code that makes up the web-version of the Westwork client. It is a react application that interfaces with the server and presents a coherent interface for both bootstrap and everyday use, including mail, messaging, calendar, contact, file sync, etc.
 
-During bootstrap it will present the questions given by the backend system and return the answers given by Alice.
-During normal operation it will provide a coherent user interface to Alice, pulling in data from the backend as needed.
+See the issues for next steps.
